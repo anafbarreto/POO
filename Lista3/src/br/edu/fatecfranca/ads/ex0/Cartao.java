@@ -6,7 +6,7 @@ public class Cartao {
     private String validade, bandeira, numero, senha;
     private Conta conta; //associação com a conta
 
-    //Construtor   
+    //Construtor sem parametro 
     public Cartao() {
 
     }

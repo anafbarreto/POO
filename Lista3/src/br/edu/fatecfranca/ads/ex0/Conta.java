@@ -4,12 +4,11 @@ public class Conta {
     private String numero, agencia, nome; //variaveis com o mesmo tipo "String"
     private float saldo;
 
-public Conta(){  
-    
-    
-    
+public Conta(){ 
+        
 }    
-    public String getNumero() {
+    
+public String getNumero() {
         return numero;
     }
 

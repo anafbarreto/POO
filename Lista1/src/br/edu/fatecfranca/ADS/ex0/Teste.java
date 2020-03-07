@@ -1,9 +1,12 @@
 package br.edu.fatecfranca.ads.ex0;
+
 import javax.swing.JOptionPane;
+
 public class Teste {
     public static void main(String[] args) {     
         
        // criando objetos
+       
         String mo = JOptionPane.showInputDialog("Informe modelo");
         String ma = JOptionPane.showInputDialog("Informe marca");
         int aux = JOptionPane.showConfirmDialog(null, 
