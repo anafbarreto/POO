@@ -17,7 +17,7 @@ public class Teste {
         JOptionPane.showMessageDialog(null, obj1.toString()); 
         JOptionPane.showMessageDialog(null, obj2.toString()); 
 
-        JOptionPane.showMessageDialog(null, obj1.saldo);
+        
         
         //tentando acessar sem o get e o set temos erro por conta do encapsulamento das variaveis, neste caso o Saldo.
 
