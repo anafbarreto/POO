@@ -1,6 +1,14 @@
 package br.edu.fatecfranca.ads.ex1;
 
-import java.util.Date;
+import java.util.Date; //Utiliza a data atual do sistema
+
+/* Para definir uma data, utilizar o codigo:
+Calendar c = Calendar.getInstance ();
+c.set (Calendar.YEAR, 2018);
+c.set (Calendar.MONTH, Calendar.March);
+c.set (Calendar.DAY_OF_MONTH, 20);
+*/ 
+
 import javax.swing.JOptionPane;
 
 public class Teste {
@@ -15,7 +23,7 @@ public class Teste {
         obj2.setCpf("123123123-10");
         
         Reserva objTotal = new Reserva(new Date(), 54, obj2, obj1);
-        objTotal.setData(new Date());
+        objTotal.setData(new Date()); //(c.getTime ()); -> atribui a data definida no Calendar
         objTotal.setId(2);
         
         (objTotal.getPassageiro()).setCpf("45678912356");

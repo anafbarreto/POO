@@ -6,6 +6,7 @@ public class Reserva {
 
     private Date data;
     private int id;
+// associações    
     private Passageiro Passageiro;
     private Voo Voo;
 
@@ -60,7 +61,7 @@ public class Reserva {
     public String toString() {
         return "Reserva: "
                 + "\n Data: " + data
-                + "\n ID: " + id
+                + "\n ID da reserva: " + id
                 + "\n " + Voo.toString()
                 + "\n " + Passageiro.toString();
     }
