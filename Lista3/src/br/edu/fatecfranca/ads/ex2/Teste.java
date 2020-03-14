@@ -25,7 +25,13 @@ public class Teste {
         
         JOptionPane.showMessageDialog(null, cr.toString());
         
+        Disciplina d5 = new Disciplina ();
+        d5.setId(d3.getId());
+        d5.setNome("Calculo");
         
+        cr.updateDisciplina(d3, d5);
+        
+        JOptionPane.showMessageDialog(null, cr.toString());
         
         
         

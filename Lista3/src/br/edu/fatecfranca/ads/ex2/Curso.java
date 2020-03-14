@@ -49,7 +49,10 @@ public class Curso {
     }
 
     public String toString() {
-        return "Curso{" + "id=" + id + ", nome=" + nome + ", disciplinas=" + disciplinas + '}';
+        return "Curso "
+                + "\n Id: " + id 
+                + "\n Nome: " + nome 
+                + "\n Disciplina: " + disciplinas;
     }
 
 //CRUD
