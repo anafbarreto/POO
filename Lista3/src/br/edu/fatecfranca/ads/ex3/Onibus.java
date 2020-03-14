@@ -1,6 +1,7 @@
 package br.edu.fatecfranca.ads.ex3;
 
 import br.edu.fatecfranca.ads.ex2.Disciplina;
+
 import java.util.ArrayList;
 
 public class Onibus {
@@ -46,8 +47,8 @@ public class Onibus {
     public String toString() {
         return "Onibus"
                 + "\n Numero: " + numero
-                + "n Placa: " + placa
-                + "n Passageiro: " + passageiros;
+                + "\n Placa: " + placa
+                + "\n Passageiro: " + passageiros;
     }
 
     // CRUD
