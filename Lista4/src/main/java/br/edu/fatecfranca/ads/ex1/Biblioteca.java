@@ -50,9 +50,6 @@ public class Biblioteca {
                 + '}';
     }
     
-    public void addProduto(Produto camaleao) {
-        this.produtos.add(camaleao);
-    }
-    
+        
     
 }
