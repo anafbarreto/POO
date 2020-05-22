@@ -1,45 +1,50 @@
 package br.edu.fatecfranca.ads.ex1;
+ 
+import java.util.ArrayList;
 
 public class Biblioteca {
+    private double valor;
+    private int qtde;
+    private ArrayList<Produto> produtos;
     
-    // Herança
-    protected String nomelivro;
-    protected String genero;
- 
-    
-    public Biblioteca() {
+    public double getValor() {
+        return valor;
     }
 
-    public Biblioteca(String nomelivro, String genero) {
-        this.nomelivro = nomelivro;
-        this.genero = genero;
+    public void setValor(double valor) {
+        this.valor = valor;
     }
 
-    public String getNomelivro() {
-        return nomelivro;
+    public int getQtde() {
+        return qtde;
     }
 
-      public String getGenero() {
-        return genero;
+    public void setQtde(int qtde) {
+        this.qtde = qtde;
     }
 
-    public void setNomelivro(String nomelivro) {
-        this.nomelivro = nomelivro;
+    public ArrayList<Produto> getProdutos() {
+        return produtos;
     }
 
-    public void setGenero(String genero) {
-        this.genero = genero;
+    public void setProdutos(ArrayList<Produto> produtos) {
+        this.produtos = produtos;
+    }
+
+    public Biblioteca(double valor, int qtde, ArrayList<Produto> produtos) {
+        this.valor = valor;
+        this.qtde = qtde;
+        this.produtos = produtos;
+    }
+
+    public Biblioteca () {
+        this.produtos = new ArrayList();
     }
 
     @Override
     public String toString() {
-        return "Biblioteca{" + "nomelivro=" + nomelivro + ", qtdelivro="  + ", genero=" + genero + '}';
+        return "Biblioteca{" + "valor=" + valor + ", qtde=" + qtde + ", produtos=" + produtos + '}';
     }
-
-    
-    }
-
     
     
-    
-    
+}
