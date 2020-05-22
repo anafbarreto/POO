@@ -43,7 +43,15 @@ public class Biblioteca {
 
     @Override
     public String toString() {
-        return "Biblioteca{" + "valor=" + valor + ", qtde=" + qtde + ", produtos=" + produtos + '}';
+        return "Biblioteca: "
+                + "\n valor: " + valor 
+                + "\n qtde: " + qtde 
+                + "\n produtos: " + produtos 
+                + '}';
+    }
+    
+    public void addProduto(Produto camaleao) {
+        this.produtos.add(camaleao);
     }
     
     

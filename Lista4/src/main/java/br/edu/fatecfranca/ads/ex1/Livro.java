@@ -23,7 +23,10 @@ public class Livro extends Produto {
 
     @Override
     public String toString() {
-        return "Revista{" + "ISBN=" + ISBN + '}';
+        return "Livro: " 
+                + "\n ISBN: " + ISBN 
+                + super.toString() 
+                +'}';
     }
     
     

@@ -23,7 +23,10 @@ public class Revista extends Produto {
 
     @Override
     public String toString() {
-        return "Revista{" + "ISSN=" + ISSN + '}';
+        return "Revista: " 
+                + "\n ISSN: " + ISSN 
+                + super.toString() 
+                +'}';
     }
     
     
